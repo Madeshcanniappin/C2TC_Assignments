@@ -25,7 +25,8 @@ class Commission{
       }
     
     public void toCalculate() {
-    	double commission=0;
+    	
+  	double commission=0;
     	if(Sales_amount>=100000) {
     		commission=Sales_amount*0.10;
     	}
